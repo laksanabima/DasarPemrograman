@@ -2,8 +2,6 @@
 
 * [Pengantar Dasar Pemrograman](README.md)
 
-## Algoritma & Flowchart
-* [Algoritma](aloritma_pseudocode_flowchart/Algoritma.md)
-
-## Pembahasan Lain (Folder Masa Depan)
-* [Judul Materi Baru](FOLDER_BARU/MateriBaru.md)
+## Contents
+* [Algoritma Pseudocode Flowchart](contents/1_algoritma_pseudocode_flowchart.md)
+* [Struktur Kontrol Program](contents/2_struktur_kontrol_program.md)
