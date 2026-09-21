@@ -243,4 +243,11 @@ Flowchart adalah representasi visual dari:
 
 ## Pseudocode dan Flowchart
 1. Menghitung Konversi Suhu (Pilihan Konversi Bebas)
-2. Menghitung Total Harga Belanja setelah Diskon Tetap (Tentukan nilai Diskon Tetapnya)
+2. Menghitung Total Harga Belanja setelah Diskon Tetap (Tentukan nilai Diskon Tetapnya)
+
+## Ketentuan
+1. Dikerjakan secara individu.
+2. Flowchart harus menggunakan simbol yang sesuai.
+3. Urutan proses harus jelas.
+4. Pseudocode harus konsisten dengan flowchart.
+5. Kasus harus realistis dan dapat diterjemahkan menjadi program.
