@@ -1,0 +1,15 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Dasar Pemrograman
+  structure:
+    - type: section
+      key: dasar-pemrograman-section
+      title: Materi Pemrograman
+      path: materi
+      children:
+        - type: space
+          key: dasar-pemrograman-space
+          title: Dasar Pemrograman
+          path: dasar
+          content:
+            directory: ./
