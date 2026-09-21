@@ -219,7 +219,7 @@ Flowchart adalah representasi visual dari:
 
 ## Simbol Flowchart
 
-<img src="../images/flowchart_symbol.png" alt="Alur Program" width="600">
+<img src="../images/flowchart_symbol.png" alt="Alur Program (source: tutorialspoint.com)" width="600">
 
 ## Syarat Flowchart
 1. Flowchart hanya dapat memiliki satu simbol Start dan satu Stop
@@ -228,10 +228,10 @@ Flowchart adalah representasi visual dari:
 4. Anak panah tidak boleh saling bersilangan
 
 ## Contoh Flowchart Kehidupan Nyata
-<img src="https://www.tutorialspoint.com/programming_methodologies/images/example_flowcharts.jpg" alt="Contoh Flowchart" width="500">
+<img src="https://www.tutorialspoint.com/programming_methodologies/images/example_flowcharts.jpg" alt="Contoh Flowchart (source: tutorialspoint.com)" width="500">
 
 ## Contoh Flowchart Menghitung Rata
-<img src="https://www.tutorialspoint.com/programming_methodologies/images/example_flowcharts1.jpg" alt="Contoh Flowchart" width="300">
+<img src="https://www.tutorialspoint.com/programming_methodologies/images/example_flowcharts1.jpg" alt="Contoh Flowchart (source: tutorialspoint.com)" width="300">
 
 # Tugas
 ## Algoritma
