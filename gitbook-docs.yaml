@@ -6,10 +6,12 @@ site:
       key: dasar-pemrograman-section
       title: Materi Pemrograman
       path: materi
+      default: true
       children:
         - type: space
           key: dasar-pemrograman-space
           title: Dasar Pemrograman
           path: dasar
+          default: true
           content:
             directory: ./
