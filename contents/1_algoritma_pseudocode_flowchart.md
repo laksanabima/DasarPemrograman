@@ -53,7 +53,7 @@ Algoritma membuat kopi:
 
 Langkah tersebut memiliki urutan yang jelas.
 
-### Algoritma Di Sekitar_
+### Algoritma Di Sekitar
 1. Membuat kopi.
 2. Memasak nasi.
 3. Mengisi KRS.
