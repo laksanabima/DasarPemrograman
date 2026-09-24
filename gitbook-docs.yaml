@@ -14,4 +14,4 @@ site:
           path: dasar
           default: true
           content:
-            directory: ./
+            directory: ./materi
