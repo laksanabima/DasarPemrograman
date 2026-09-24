@@ -1,9 +1,11 @@
-## Universitas Harkat Negeri
-### Fakultas Teknik dan Sains | Program Studi Sistem Informasi
+# Pengantar Dasar Pemrograman
 
-> Bima Laksana Putra, S.ST., M.M.
+## Universitas Harkat Negeri
+
+Bima Laksana Putra, S.ST., M.M.
 
 ## 1. Capaian Pembelajaran Lulusan (CPL)
+
 RPS mengaitkan mata kuliah ini dengan tiga CPL:
 
 1. CPL-01 — memahami dan menganalisis permasalahan computing serta konsep dasar dan peran sistem informasi dalam pengelolaan data dan pengambilan keputusan.
@@ -11,6 +13,7 @@ RPS mengaitkan mata kuliah ini dengan tiga CPL:
 3. CPL-08 — bersikap proaktif dan inovatif dalam menerapkan teknologi informasi untuk menghasilkan solusi bagi masalah sosial, lingkungan, dan peningkatan kualitas hidup.
 
 ## 2. Capaian Pembelajaran Mata Kuliah (CPMK)
+
 | Kode        | Capaian Pembelajaran Mata Kuliah                                           | Level  |
 | ----------- | -------------------------------------------------------------------------- | ------ |
 | **CPMK-01** | Menjelaskan konsep dasar algoritma dan struktur kontrol dalam pemrograman. | C2     |
@@ -19,6 +22,7 @@ RPS mengaitkan mata kuliah ini dengan tiga CPL:
 | **CPMK-04** | Menyusun program untuk menyelesaikan permasalahan komputasi sederhana.     | C6, P4 |
 
 ## 3. Ringkasan Perkuliahan
+
 | Minggu | Sub-CPMK / Fokus     | Ringkasan Sub-Topik                                                                                                    |
 | ------ | -------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | **1**  | **01.1**             | Algoritma, pseudocode, flowchart, fungsi flowchart, simbol dan notasi standar                                          |
