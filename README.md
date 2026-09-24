@@ -1,8 +1,7 @@
-# Pengantar Dasar Pemrograman
-
 ## Universitas Harkat Negeri
+### Fakultas Teknik dan Sains | Program Studi Sistem Informasi
 
-Bima Laksana Putra, S.ST., M.M.
+> Bima Laksana Putra, S.ST., M.M.
 
 ## 1. Capaian Pembelajaran Lulusan (CPL)
 
