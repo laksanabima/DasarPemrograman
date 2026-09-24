@@ -326,3 +326,106 @@ tidak efisien.
 >Iteration / Loop
 
 ## Jenis Iteration
+Jenis Iteration
+
+Bentuk atau jenis iteration meliputi:
+
+* for
+* while
+* do-while
+
+Pada tahap ini mahasiswa tidak perlu langsung menghafal sintaks bahasa tertentu.
+
+Yang lebih penting adalah memahami:
+
+>Kapan sebuah proses perlu diulang?
+
+## FOR
+
+Menggunakan FOR cocok ketika jumlah pengulangan diketahui.
+
+Contoh:
+```
+FOR i ← 1 TO 5
+    OUTPUT i
+END FOR
+```
+**Hasil:**
+```
+1
+2
+3
+4
+5
+```
+**Inti:**
+
+>Ulangi proses dengan jumlah/rentang tertentu.
+
+## WHILE
+
+Menggunakan WHILE cocok ketika kondisi terpenuhi.
+
+```
+WHILE kondisi
+    proses
+END WHILE
+```
+
+Contoh:
+```
+WHILE password salah
+    INPUT password
+END WHILE
+```
+
+**Hasil:**
+>Selama kondisi masih benar (`password salah`), proses terus diulang.
+
+## DO-WHILE
+Menggunakan Do-While, maka proses dilakukan terlebih dahulu meskipun kondisi belum terpenuhi.  
+Kemudian kondisi diperiksa.
+```
+DO
+    proses
+WHILE kondisi
+```
+Contoh:
+```
+DO
+    tampilkan menu
+    INPUT pilihan
+WHILE pilihan tidak valid
+```
+**Hasil:**
+> tetap tampilkan menu dan input pilihan   
+> ulangi proses jika ditemukan pilihan tidak valid
+
+**Ciri penting**
+>Proses minimal dijalankan satu kali.
+
+## MEMBEDAKAN FOR, WHILE, DO-WHILE
+
+| Struktur | Ide Utama |
+| ---- | ---- |
+| for | Ulangi proses dengan jumlah/rentang tertentu |
+| while | Ulangi proses selama kondisi terpenuhi |
+| do-while | Ulangi proses terlebih dahulu, kemudian kondisi diperiksa |
+
+# Perbedaan Sequence, Selection, dan Iteration
+| Struktur | Fungsi | Ciri Utama |
+| ---- | ---- | ---- |
+| Sequence | Menjalankan langkah berurutan | Tidak ada pilihan/pengulangan |
+| Selection | Memilih berdasarkan kondisi | Ada keputusan |
+| Iteration | Mengulangi proses | Ada pengulangan |
+
+Cara sederhana mengingat:
+
+**SEQUENCE**
+> = Lakukan A → B → C
+
+**SELECTION**
+> = Jika kondisi → pilih A/B
+
+**ITERATION**
+> = Ulangi A sampai kondisi tertentu

@@ -1,4 +1,7 @@
-# Algoritma Pseudocode Flowchart
+## Universitas Harkat Negeri
+### SIF3002 — Dasar Pemrograman
+
+Bima Laksana Putra, S.ST., M.M.
 
 ## Capaian Pembelajaran
 
