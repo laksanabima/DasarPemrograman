@@ -5,6 +5,6 @@
 
 ## Materi Inti
 
-* [Algoritma Pseudocode Flowchart](materi/1_algoritma_pseudocode_flowchart.md)
-* [Struktur Kontrol Program](materi/not_available.md)
-* [Analisis Komparatif & Struktur Bertingkat](materi/not_available.md)
+* [Algoritma Pseudocode Flowchart](materi-inti/1_algoritma_pseudocode_flowchart.md)
+* [Struktur Kontrol Program](materi-inti/not_available.md)
+* [Analisis Komparatif & Struktur Bertingkat](materi-inti/not_available.md)
