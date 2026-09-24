@@ -6,4 +6,3 @@
 ## Materi Inti
 
 * [Algoritma Pseudocode Flowchart](materi-inti/1_algoritma_pseudocode_flowchart.md)
-* [Struktur Kontrol Program](materi-inti/2_struktur_kontrol_program.md)
