@@ -5,4 +5,4 @@
 
 ## Materi Inti
 
-* [Algoritma Pseudocode Flowchart](materi/1_algoritma_pseudocode_flowchart.md)
+* [Algoritma Pseudocode Flowchart](materi-inti/1_algoritma_pseudocode_flowchart.md)
