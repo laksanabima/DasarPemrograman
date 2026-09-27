@@ -411,3 +411,152 @@ WHILE pilihan tidak valid
 | for | Ulangi proses dengan jumlah/rentang tertentu |
 | while | Ulangi proses selama kondisi terpenuhi |
 | do-while | Ulangi proses terlebih dahulu, kemudian kondisi diperiksa |
+
+## Perbedaan Sequence, Selection, dan Iteration
+| Struktur | Fungsi | Ciri utama |
+| ---- | ---- | ---- |
+| Sequence | Menjalankan langkah berurutan | Tidak ada pilihan/pengulangan |
+| Selection | Memilih berdasarkan kondisi | Ada keputusan |
+| Iteration | Mengulangi proses | Ada pengulangan |
+
+Cara sederhana mengingat:
+
+**SEQUENCE** (Urutan)
+> = Lakukan A → B → C
+
+**SELECTION** (Pilihan)
+> = Jika kondisi → pilih A/B
+
+**ITERATION** (Pengulangan)
+> = Ulangi A sampai kondisi tertentu
+
+## Studi Kasus Sequence, Selection, dan Iteration
+> Bayangkan sistem absensi mahasiswa.
+
+**Proses:**
+
+1. Mahasiswa memasukkan NIM.
+2. Sistem mencari data mahasiswa.
+3. Jika mahasiswa ditemukan, simpan absensi.
+4. Jika mahasiswa tidak ditemukan, tampilkan pesan kesalahan.
+5. Proses dilakukan untuk mahasiswa berikutnya.
+
+Di dalam kasus tersebut terdapat beberapa struktur:
+
+**Sequence**
+```
+Masukkan NIM
+    ↓
+Cari data
+```
+
+**Selection**
+```
+Jika ditemukan
+    simpan absensi
+Jika tidak
+    tampilkan error
+```
+
+**Iteration**
+```
+Proses mahasiswa berikutnya
+```
+
+Satu program dapat menggunakan lebih dari satu struktur kontrol.
+
+## Kuis Cepat
+
+Tentukan struktur kontrol yang tepat untuk kasus berikut:
+
+Kasus A
+
+>Menghitung luas persegi panjang.
+
+Kasus B
+
+>Menentukan apakah mahasiswa lulus.
+
+Kasus C
+
+>Menampilkan angka 1 sampai 100.
+
+Kasus D
+
+>Memeriksa password sampai password benar.
+
+Kasus E
+
+>Menghitung total harga 10 barang.
+
+## Kuis dengan Algoritma
+>Kasus: Sistem Kasir
+Tentukan Sequence, Selection, dan Iteration  
+
+Algoritma:
+1. Input kode barang.
+2. Cari harga barang.
+3. Input jumlah.
+4. Hitung subtotal.
+5. Jika total > Rp500.000,
+   berikan diskon.
+6. Tampilkan total.
+7. Proses transaksi berikutnya.
+
+**Pertanyaan**  
+Identifikasi:  
+* Sequence
+  * Input kode barang.
+  * Cari harga barang.
+  * Input jumlah.
+  * Hitung subtotal.
+* Selection
+  * Jika total > Rp500.000,
+     berikan diskon.
+* Iteration
+  * Proses transaksi berikutnya.
+
+**Tantangan**  
+Jelaskan baris mana yang termasuk masing-masing struktur.
+
+## Kuis dengan Pseudocode
+**Pertanyaan 1**
+
+Program:
+```
+INPUT panjang
+INPUT lebar
+luas ← panjang × lebar
+OUTPUT luas
+```
+
+**Pertanyaan 2**
+
+Program:
+```
+IF nilai >= 60 
+    Lulus
+ELSE
+    Tidak Lulus
+```
+
+**Pertanyaan 3**
+
+Program:
+```
+FOR i ← 1 TO 10
+    OUTPUT i
+END FOR
+```
+
+# Tugas
+## Algoritma
+Tentukan Sequence, Selection, dan Iteration untuk kasus berikut:
+1. Sistem Perpustakaan 
+2. Sistem Rumah Sakit
+3. Sistem Pemesanan 
+4. Sistem Pembayaran
+5. E-Commerce
+
+## Pseudocode
+Pilih 3 studi kasus dari algoritma yang telah dibuat. tentukan pseudocode untuk kasus tersebut. pastikan pseudocode yang Anda buat memiliki kontrol struktur (sequence, selection, dan iteration).
