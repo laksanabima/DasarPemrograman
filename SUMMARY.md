@@ -7,4 +7,5 @@
 
 * [Algoritma Pseudocode Flowchart](materi/1_algoritma_pseudocode_flowchart.md)
 * [Struktur Kontrol Program](materi/2_struktur_kontrol_program.md)
-* [Analisis Komparatif & Struktur Bertingkat](materi/not_available.md)
+* [Analisis Komparatif & Struktur Bertingkat](materi/3_komparatif_struktur_bertingkat.md)
+* [Pengenalan Pemrograman Terstruktur](materi/not_available.md)
