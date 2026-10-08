@@ -3,7 +3,8 @@
 
 Bima Laksana Putra, S.ST., M.M.
 
-# PERBANDINGAN SELECTION VS ITERATION, NESTED CONTROL, DAN PEMILIHAN STRUKTUR KONTROL
+# Perbandingan Selection VS Iteration, Nested Control, dan Pemilihan Struktur Kontrol
+
 
 # Capaian Pembelajaran
 
@@ -483,9 +484,7 @@ Untuk setiap kasus berikut, tentukan struktur kontrol yang digunakan (sequence, 
 
 1. Sistem Pemesanan Tiket Bioskop.
 2. Sistem Pendaftaran Mahasiswa Baru.
-3. Sistem Penggajian Karyawan.
-4. Sistem Peminjaman Buku Perpustakaan.
-5. Sistem Antrean Rumah Sakit.
+3. Sistem Peminjaman Buku Perpustakaan.
 
 ## Pseudocode Nested Control
 
