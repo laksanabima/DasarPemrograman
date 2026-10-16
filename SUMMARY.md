@@ -8,4 +8,4 @@
 * [Algoritma Pseudocode Flowchart](materi/1_algoritma_pseudocode_flowchart.md)
 * [Struktur Kontrol Program](materi/2_struktur_kontrol_program.md)
 * [Analisis Komparatif & Struktur Bertingkat](materi/3_komparatif_struktur_bertingkat.md)
-* [Pengenalan Pemrograman Terstruktur](materi/not_available.md)
+* [Pengenalan Pemrograman Terstruktur (Python)](materi/4_pengenalan_python.md)
