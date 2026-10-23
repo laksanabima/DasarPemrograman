@@ -651,9 +651,6 @@ Buat fungsi `tentukan_grade(nilai)` yang mengembalikan grade `"A"`, `"B"`, `"C"`
 
 Buat program yang meminta nilai dari pengguna sebanyak tiga kali menggunakan `for`, lalu hitung rata-ratanya. Gunakan minimal satu fungsi (misalnya `hitung_rata_rata(total, banyak_data)`).
 
-## Latihan 6: Modularisasi
-
-Pecah program kalkulator sederhana pada materi menjadi beberapa fungsi. Modifikasi agar program memiliki fitur **pangkat** (`**`) dan **sisa bagi** (`%`) sebagai menu tambahan.
 
 ## Ketentuan
 
