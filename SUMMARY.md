@@ -10,3 +10,4 @@
 * [Analisis Komparatif & Struktur Bertingkat](materi/3_komparatif_struktur_bertingkat.md)
 * [Pengenalan Pemrograman Terstruktur (Python)](materi/4_pengenalan_python.md)
 * [Implementasi Struktur, Fungsi, Parameter, dan Modularisasi](materi/5_implementasi_struktur_fungsi_python.md)
+* [Array, String, Input-Output, Format Output, dan Testing](materi/6_array_string_input_output_format_testing.md)
