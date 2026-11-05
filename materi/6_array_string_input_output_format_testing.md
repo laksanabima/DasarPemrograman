@@ -628,7 +628,115 @@ assert ringkasan_nilai([0, 0, 0]) == (0, 0.0, 0, 0)
 print("Semua pengujian lolos.")
 ```
 
-# 6. Kesalahan Umum
+# 6. Studi Kasus Nyata: Pengolahan Nilai Mahasiswa
+
+## Skenario
+
+Bagian akademik ingin mengolah nilai ujian satu kelas. Dari daftar nilai, sistem harus:
+
+1. Menampilkan setiap nilai beserta **grade** dan **status kelulusan**.
+2. Menghitung **rata-rata** kelas.
+3. Menghitung **jumlah mahasiswa yang lulus**.
+
+Kasus ini memadukan **array (list)** untuk menyimpan data, **selection** untuk menentukan grade dan status, serta **iteration** untuk memproses seluruh data.
+
+## Program Lengkap
+
+```python
+def tentukan_grade(nilai):
+    if nilai >= 90:
+        return "A"
+    elif nilai >= 80:
+        return "B"
+    elif nilai >= 70:
+        return "C"
+    elif nilai >= 60:
+        return "D"
+    else:
+        return "E"
+
+def tentukan_status(nilai):
+    if nilai >= 60:
+        return "Lulus"
+    else:
+        return "Belum lulus"
+
+def main():
+    banyak = int(input("Banyak mahasiswa: "))
+    daftar_nilai = []
+
+    # Iteration + input: mengisi list
+    for i in range(banyak):
+        nilai = int(input(f"Masukkan nilai mahasiswa ke-{i + 1}: "))
+        daftar_nilai.append(nilai)
+
+    total = sum(daftar_nilai)
+    rata_rata = total / banyak
+
+    # Iteration + selection: klasifikasi dan penghitungan
+    jumlah_lulus = 0
+    print(f"\n{'No':<4} {'Nilai':>6} {'Grade':>6} {'Status':>12}")
+    print("-" * 32)
+
+    for i in range(len(daftar_nilai)):
+        nilai = daftar_nilai[i]
+        grade = tentukan_grade(nilai)
+        status = tentukan_status(nilai)
+
+        if status == "Lulus":
+            jumlah_lulus = jumlah_lulus + 1
+
+        print(f"{i + 1:<4} {nilai:>6} {grade:>6} {status:>12}")
+
+    print("-" * 32)
+    print(f"{'Rata-rata':<10} {rata_rata:>6.2f}")
+    print(f"{'Lulus':<10} {jumlah_lulus} dari {banyak} mahasiswa")
+
+main()
+```
+
+## Contoh Jalannya Program
+
+Input: `5`, lalu nilai `80`, `90`, `75`, `85`, `92`.
+
+```
+Banyak mahasiswa: 5
+Masukkan nilai mahasiswa ke-1: 80
+Masukkan nilai mahasiswa ke-2: 90
+Masukkan nilai mahasiswa ke-3: 75
+Masukkan nilai mahasiswa ke-4: 85
+Masukkan nilai mahasiswa ke-5: 92
+
+No    Nilai  Grade       Status
+--------------------------------
+1        80      B        Lulus
+2        90      A        Lulus
+3        75      C        Lulus
+4        85      B        Lulus
+5        92      A        Lulus
+--------------------------------
+Rata-rata   84.40
+Lulus      5 dari 5 mahasiswa
+```
+
+## Identifikasi Struktur
+
+| Bagian program | Konsep |
+| ---- | ---- |
+| `daftar_nilai` | Array (list) untuk menyimpan banyak nilai |
+| `for i in range(banyak)` mengisi data | Iteration |
+| `tentukan_grade` / `tentukan_status` | Selection (`if-elif-else`) di dalam fungsi |
+| `if status == "Lulus"` menghitung lulus | Selection di dalam iteration |
+| `f"{nilai:>6}"` dan sejenisnya | Format output |
+| Fungsi-fungsi terpisah | Modularisasi |
+
+## Pengembangan (Latihan Mandiri)
+
+1. Tambahkan perhitungan **nilai tertinggi** dan **terendah**.
+2. Tampilkan **persentase kelulusan**.
+3. Tampilkan daftar mahasiswa yang **nilainya di atas rata-rata**.
+
+# 7. Kesalahan Umum
 
 1. **Indeks mulai dari 1.** Indeks Python dimulai dari 0, sehingga elemen pertama adalah indeks `0`.
 2. **Mengakses indeks di luar jangkauan.** Misalnya list berisi 5 elemen tetapi mengakses indeks `5`.

@@ -11,3 +11,4 @@
 * [Pengenalan Pemrograman Terstruktur (Python)](materi/4_pengenalan_python.md)
 * [Implementasi Struktur, Fungsi, Parameter, dan Modularisasi](materi/5_implementasi_struktur_fungsi_python.md)
 * [Array, String, Input-Output, Format Output, dan Testing](materi/6_array_string_input_output_format_testing.md)
+* [Error: Klasifikasi, Pelaporan, dan Perbaikan](materi/7_error_reporting_dan_perbaikan.md)
