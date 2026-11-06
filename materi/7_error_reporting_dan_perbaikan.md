@@ -201,7 +201,7 @@ Untuk setiap program berikut, tentukan jenis errornya dan tuliskan perbaikannya.
 
 ```python
 # Program A
-nama = "Bima"
+nama = "Supardi Toyib"
 print(nama + umur)
 ```
 
