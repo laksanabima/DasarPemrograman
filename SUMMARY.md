@@ -13,4 +13,3 @@
 * [Array, String, Input-Output, Format Output, dan Testing](materi/6_array_string_input_output_format_testing.md)
 * [Error: Klasifikasi, Pelaporan, dan Perbaikan](materi/7_error_reporting_dan_perbaikan.md)
 * [Ujian Tengah Semester (UTS)](materi/8_uts.md)
-* [Refactoring, Optimisasi, Naming, Comment, dan Organisasi Kode](materi/9_refactoring_optimisasi_organisasi_kode.md)
